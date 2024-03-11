@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        .contiener{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        button {
+            background-color: black; 
+            color: pink; 
+            border-radius: 50%;
+            border-color: pink;
+            font-size: 100px;
+            box-shadow: 1px 1px 2px black,
+                        0 0 20px palevioletred,
+                        0 0 30px palevioletred;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 1px 1px 1px black,
+                         0 0 10px rgb(231, 78, 104),
+                         0 0 20px pink;
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <!--CHAMANDO O JAVASCRIPT POR EVETO-->
+    <div class="contiener">
+        <button class="button" onclick="alert('BOOOMMM!!!')">Aperte?</button>
+    </div>
+
+    <!--CHAMANDO O JS NO BODY
+    <script>
+        alert("Vai apertar o botão?")
+    </script>
+    -->
+
+    <!--CHAMANDO O JS EXTERNO-->
+    <script src="script.js"></script>
+</body>
+</html>
